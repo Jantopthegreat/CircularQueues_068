@@ -56,7 +56,8 @@ void remove(){
 		// jika element yang dihapus berada di posisi terakhir array, kembali ke awal
 		if (FRONT == max - 1)
 			FRONT = 0;
-		else 
+		else
+			FRONT = FRONT + 1;
 
 
 
